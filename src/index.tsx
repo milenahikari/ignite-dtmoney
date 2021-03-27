@@ -5,7 +5,7 @@ import { App } from './App';
 
 createServer({
   models: {
-    transactions: Model,
+    transaction: Model,
   },
 
   seeds(server) {

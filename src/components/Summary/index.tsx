@@ -10,7 +10,6 @@ import * as S from "./styles";
 export function Summary() {
   const { transactions } = useContext(TransactionsContext);
 
-  console.log(transactions);
   return (
     <S.Container>
       <div>
